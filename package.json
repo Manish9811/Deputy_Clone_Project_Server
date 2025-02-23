@@ -18,10 +18,9 @@
     "vercel": "^41.1.4"
   },
   "scripts": {
-    "dev": "nodemon server.js",
-    "build": "next build",
-    "start": "node server.js",
-    "postinstall": "npm run build",
-    "heroku-postbuild": "npm install"
-  }
+  "dev": "next dev",  
+  "build": "next build",  
+  "start": "next start", 
+  "postinstall": "npm run build"  
+}
 }
