@@ -37,3 +37,5 @@ app.listen((port),()=>{
   console.log("app is runnin", port) 
   
 })
+
+module.exports = app;
